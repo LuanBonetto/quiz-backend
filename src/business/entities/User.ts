@@ -6,7 +6,6 @@ export default class User {
     private nickname: string,
     private email: string,
     private password: string,
-    // new Date('1999, 1, 30').toISOString().slice(0, 19).replace('T', ' ');
     private birthday: number,
     private picture?: string,
   ) {}
