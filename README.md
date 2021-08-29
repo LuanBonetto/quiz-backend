@@ -7,6 +7,11 @@
 4. No terminal digite `yarn knex migrate:latest` para rodar as migrations (após rodar esse comando visualize o banco de dados para ver se criou as tabelas corretamente);
 
 ## Criando novas tabelas
-Sempre que for criar uma tabela nova ou alterar colunas digite no terminal  `yarn knex migrate:make <nome da migration>`;
+Sempre que for criar uma tabela nova ou alterar colunas digite no terminal  
+
+`yarn knex migrate:make <nome da migration>`
+
 Dando tudo certo basta visualizar o arquivo da migration em business/data/migrations;
-Tudo pronto para rodar a nova migration digite no terminal `yarn knex migrate:latest`;
+
+Tudo pronto para rodar a nova migration digite no terminal 
+`yarn knex migrate:latest`
